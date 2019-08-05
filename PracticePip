@@ -1,0 +1,11 @@
+pip install -- installed the specified software, in this case Django
+pip list - lists the assets in the virtual environment.
+deactivate -- deactivates the virtual environment 
+pip3 list is shorter since it doesn't have Django in its scope
+source myEnvironments/py3Env/bin/activate - activates the virtual environment again
+pip install Django==1.11.9 -- doesn't install since it already has
+pip freeze  -- used for outputting in requirements format
+pip freeze > requirements.txt -- the required assets, including Django, with version
+pip uninstall Django -- uninstalls 
+pip show Django -- shows the environment
+pip search Flask -- finds all the Flask files
